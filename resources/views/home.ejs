@@ -1,1 +1,102 @@
-<h1> Hello From the page!!!!</h1>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>
+
+        ShopSe-Locate your Products nearby
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Benne&family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/tailwindcss@^1/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css"> </head>
+
+<body>
+
+
+    <section class="hero py-16">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="w-1/2">
+                <h4 class="text-lg">
+                    <em>Can't find the exact product in the nearby stores?</em>
+                </h4>
+                <h2 class="text-6xl font-bold"> Find and Locate Your Products </h2>
+                <button class="px-6 py-2 rounded-full text-white mt-4 btn-primary">
+                        <h1>Search Products</h1>
+
+                    </button>
+
+
+            </div>
+            <div class="w-1/2">
+                <img src="images\local-store-5762254_960_720 (1).png"></div>
+        </div>
+
+    </section>
+    <section class="Products List container mx-auto py-8">
+        <h1 class="text-xl font bold mb-8">Full Inventory</h1>
+
+        <div class="grid grid-cols-4 col-gap-4 row-gap-16">
+
+            <% products.forEach(function(Store1){ %>
+                <div class="w-64">
+                    <img class="mx-auto" src="/images/<%= Store1.image %>" alt=" ">
+
+                    <div class="text-center">
+                        <h2 class="mb-4 text-lg">
+                            <%=Store1.name%>
+                        </h2>
+
+
+                        <div class="flex items-center justify-around">
+
+                            <span class="font-bold text-lg"><%= Store1.price%></span>
+                            <button data-Store1="<%= JSON.stringify(Store1) %>" class="add-to-cart py-2 px-6 rounded-full flex items-center font-bold">
+                            <span>+</span>
+                            <span class="ml-4">Add</span>
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <%}) %>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <script src="js/app.js "></script>
+</body>
+
+</html>

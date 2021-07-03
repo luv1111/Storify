@@ -1,0 +1,56 @@
+@import './variables';
+body {
+    font-family: 'Benne', 'sans-serif';
+    -webkit-font-smoothing: antialised;
+    color: $dark;
+}
+
+nav li:last-child a {
+    background: $primary;
+    &:hover {
+        color: $primary-hover;
+    }
+}
+
+nav li a {
+    &:hover {
+        color: $primary;
+    }
+}
+
+section.hero {
+    background: $secondary;
+}
+
+.size {
+    background: $secondary;
+}
+
+.add-to-cart {
+    border: 2px solid $primary;
+    color: $primary;
+    &:hover {
+        background: $primary;
+        border-color: white;
+        color: white;
+    }
+}
+
+.btn-primary {
+    background: $primary;
+    &:hover {
+        color: $primary-hover;
+    }
+}
+
+section.cart {
+    background: $secondary;
+    .amount {
+        color: $primary;
+    }
+}
+
+section.login {
+    background: $secondary;
+    min-height: calc(100vh-86vh);
+}

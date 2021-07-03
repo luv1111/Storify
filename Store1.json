@@ -1,0 +1,49 @@
+[{
+    "_id": {
+        "$oid": "5eee651f739f8c674fd736ee"
+    },
+    "name": "Clorox disinfectioner",
+    "image": "20002203_4-clorox-disinfecting-wipes-fresh-scent.jpg",
+    "price": "250"
+
+}, {
+    "_id": {
+        "$oid": "5eee6671a27a66807cf2bea3"
+    },
+    "name": "Herbal disinfect liquid",
+    "image": "40195542_1-herbal-strategi-herbal-fruit-vegetables-wash-sanitize-disinfect-liquid.jpg",
+    "price": "300"
+
+}, {
+    "_id": {
+        "$oid": "5eee6692a27a66807cf2bea4"
+    },
+    "name": "Dabur hommade lemoneez",
+    "image": "100005699_4-dabur-hommade-lemoneez-goodness-of-33-lemons.jpg",
+    "price": "200"
+
+}, {
+    "_id": {
+        "$oid": "5eee66a5a27a66807cf2bea5"
+    },
+    "name": "Paper boat coconut water",
+    "image": "40114332_5-paper-boat-coconut-water.jpg",
+    "price": "500"
+
+}, {
+    "_id": {
+        "$oid": "5eee66c4a27a66807cf2bea6"
+    },
+    "name": "schweppes soda original ginger ale",
+    "image": "30009570_6-schweppes-soda-original-ginger-ale.jpg",
+    "price": "350"
+
+}, {
+    "_id": {
+        "$oid": "5eee66cfa27a66807cf2bea7"
+    },
+    "name": "Epigamia Grrek Yogurt",
+    "image": "40046546_4-epigamia-greek-yogurt-natural.jpg",
+    "price": "200"
+
+}]
